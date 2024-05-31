@@ -8,6 +8,8 @@ body {
   border-color: #cfd9de;
   border-radius: 16px;
   padding: 12px;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
 }
 
 .thumbnail {
@@ -40,7 +42,7 @@ font-weight: bold;
 
 .action-rows {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   max-width: 425px;
 }
@@ -56,6 +58,7 @@ font-weight: bold;
 }
 
 .action-count {
+  margin-left: 12px;
   color: #536471;
   font-size: 13px;
 }
