@@ -1,0 +1,15 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+
+.close-button {
+  color: red;
+  display: flex;
+  justify-content: end;
+}
+
+.add-button {
+  background-color: greenyellow;
+}
